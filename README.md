@@ -22,16 +22,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Set Up Virtual Machine in Azure
-- Install / Enable IIS in Windows WITH CGI
-- Item 3
-- Item 4
+- Azure Windows VM created and accessible
+- IIS installed with CGI enabled on the VM.
+- PHP stack prepared
+- MySQL + osTicket files ready
 - Item 5
 
 <h2>Installation Steps</h2>
 
 
-<h2>1.Set Up Virtual Machine utilizing Azure</h2>
+<h2>1.Azure Windows VM created and accessible</h2>
 <p>
 <img width="1953" height="1298" alt="Screen Shot 2025-12-10 at 2 36 08 PM" src="https://github.com/user-attachments/assets/de1d1708-25c1-4f53-91cc-0cd8dbff3d6b" /> </p> 
 <p><img width="1085" height="415" alt="Screen Shot 2025-12-10 at 2 45 18 PM" src="https://github.com/user-attachments/assets/51366625-38b6-4239-a10c-798c0084558f" />
