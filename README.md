@@ -62,15 +62,14 @@ Check “CGI”.
 
 <h2>3.PHP Stack Prepared </h2>
 <p>
-<img width="1115" height="809" alt="Screen Shot 2025-12-16 at 11 51 43 AM" src="https://github.com/user-attachments/assets/60e9de04-7b13-40de-9fae-de54ed519c68" /></p>
-<p>
-C:\PHP directory created → PHP 7.3.8 ready to extract into C:\PHP → Installers prepared (PHP Manager for IIS → URL Rewrite Module → VC_redist.x86</p>
+<img width="1120" height="808" alt="Screen Shot 2025-12-16 at 11 58 11 AM" src="https://github.com/user-attachments/assets/6edc751a-c631-4f92-95c8-9e9364edcaf8" /><p>
+  <img width="1901" height="1130" alt="Screen Shot 2025-12-16 at 12 07 52 PM" src="https://github.com/user-attachments/assets/f54ddf6f-a086-4d1b-bb5d-938d2398a28c" />
+<P> C:\PHP directory created → PHP 7.3.8 ready to extract into C:\PHP → Installers prepared (PHP Manager for IIS → URL Rewrite Module → VC_redist.x86) → Application installers ready (MySQL 5.5.62 → osTicket v1.15.8 → HeidiSQL)./P></p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+<h2>4. MySQL + osTicket files ready </h2>
+<p><img width="1119" height="803" alt="Screen Shot 2025-12-16 at 12 02 24 PM" src="https://github.com/user-attachments/assets/4070955d-b3aa-4cfd-b07f-2ff101e7aba1" /></p>
+<p><img width="1886" height="1008" alt="Screen Shot 2025-12-16 at 12 30 06 PM" src="https://github.com/user-attachments/assets/c2350c67-5234-4986-ae0e-5e6fbb86b2c4" /></p>
+
+*Unzip osTicket-v1.15.8 → Copy the upload folder to C:\inetpub\wwwroot → Rename upload to osTicket → Restart IIS (Stop/Start) → IIS → Sites → Default → osTicket → Browse :80 → IIS → osTicket → PHP Manager → Enable extensions (php_imap.dll → php_intl.dll → php_opcache.dll) → Refresh browser → Rename ost-sampleconfig.php to ost-config.php → Disable inheritance → Remove all → Add permissions: Everyone → Full Control.</p>
 <br />
