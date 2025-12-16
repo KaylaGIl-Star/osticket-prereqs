@@ -75,9 +75,9 @@ Check “CGI”.
 Unzip osTicket → Copy upload to C:\inetpub\wwwroot → Rename to osTicket → Restart IIS → Browse site → Enable PHP extensions (imap, intl, opcache) → Rename ost-sampleconfig.php to ost-config.php → Set permissions: Everyone → Full Control.
 
 <h2>5. Set-up osTicket in browser </h2>
-
+<img width="1590" height="893" alt="Screen Shot 2025-12-16 at 12 44 46 PM" src="https://github.com/user-attachments/assets/e5109352-c7c7-45a5-bef8-f0f0f2bc813e" />
 <img width="955" height="760" alt="Screen Shot 2025-12-16 at 12 47 34 PM" src="https://github.com/user-attachments/assets/c4ed5e63-34be-4434-b972-6765a949248b" />
 <img width="1552" height="983" alt="Screen Shot 2025-12-16 at 12 58 43 PM" src="https://github.com/user-attachments/assets/69b3d055-e4cc-472a-89b6-e80a8914bf7b" />
 <img width="1575" height="1006" alt="Screen Shot 2025-12-16 at 1 02 19 PM" src="https://github.com/user-attachments/assets/5e0ca088-7553-429e-9b38-1f3a01f5b586" />
 
-Click Continue → Enter helpdesk name + default email → Install & open HeidiSQL → Connect (root/root) → Create osTicket database → Enter DB details in browser → Click Install Now → Verify admin login URL
+Click Continue → Enter helpdesk name + default email → Install & open HeidiSQL → Connect (root/root) → Create osTicket database → Enter DB details in browser → Click Install Now → Verify admin login
