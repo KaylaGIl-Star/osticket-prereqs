@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - IIS installed with CGI enabled on the VM.
 - PHP stack prepared
 - MySQL + osTicket files ready
-- Item 5
+- Set-up osTicket in browser
 
 <h2>Installation Steps</h2>
 
@@ -63,13 +63,21 @@ Check “CGI”.
 <h2>3.PHP Stack Prepared </h2>
 <p>
 <img width="1120" height="808" alt="Screen Shot 2025-12-16 at 11 58 11 AM" src="https://github.com/user-attachments/assets/6edc751a-c631-4f92-95c8-9e9364edcaf8" /><p>
+  <img width="1540" height="808" alt="Screen Shot 2025-12-16 at 12 40 55 PM" src="https://github.com/user-attachments/assets/5b9d4f4a-6b22-4e5c-8540-2ab2f3bbb5a5" />
   <img width="1901" height="1130" alt="Screen Shot 2025-12-16 at 12 07 52 PM" src="https://github.com/user-attachments/assets/f54ddf6f-a086-4d1b-bb5d-938d2398a28c" />
-<P> C:\PHP directory created → PHP 7.3.8 ready to extract into C:\PHP → Installers prepared (PHP Manager for IIS → URL Rewrite Module → VC_redist.x86) → Application installers ready (MySQL 5.5.62 → osTicket v1.15.8 → HeidiSQL)./P></p>
+<P> C:\PHP directory created → PHP 7.3.8 ready to extract into C:\PHP → Installers prepared (PHP Manager for IIS → URL Rewrite Module → VC_redist.x86) → Application installers ready (MySQL 5.5.62 → osTicket v1.15.8 → HeidiSQL).</p>
 <br />
 
 <h2>4. MySQL + osTicket files ready </h2>
 <p><img width="1119" height="803" alt="Screen Shot 2025-12-16 at 12 02 24 PM" src="https://github.com/user-attachments/assets/4070955d-b3aa-4cfd-b07f-2ff101e7aba1" /></p>
 <p><img width="1886" height="1008" alt="Screen Shot 2025-12-16 at 12 30 06 PM" src="https://github.com/user-attachments/assets/c2350c67-5234-4986-ae0e-5e6fbb86b2c4" /></p>
 
-*Unzip osTicket-v1.15.8 → Copy the upload folder to C:\inetpub\wwwroot → Rename upload to osTicket → Restart IIS (Stop/Start) → IIS → Sites → Default → osTicket → Browse :80 → IIS → osTicket → PHP Manager → Enable extensions (php_imap.dll → php_intl.dll → php_opcache.dll) → Refresh browser → Rename ost-sampleconfig.php to ost-config.php → Disable inheritance → Remove all → Add permissions: Everyone → Full Control.</p>
-<br />
+Unzip osTicket → Copy upload to C:\inetpub\wwwroot → Rename to osTicket → Restart IIS → Browse site → Enable PHP extensions (imap, intl, opcache) → Rename ost-sampleconfig.php to ost-config.php → Set permissions: Everyone → Full Control.
+
+<h2>5. Set-up osTicket in browser </h2>
+
+<img width="955" height="760" alt="Screen Shot 2025-12-16 at 12 47 34 PM" src="https://github.com/user-attachments/assets/c4ed5e63-34be-4434-b972-6765a949248b" />
+<img width="1552" height="983" alt="Screen Shot 2025-12-16 at 12 58 43 PM" src="https://github.com/user-attachments/assets/69b3d055-e4cc-472a-89b6-e80a8914bf7b" />
+<img width="1575" height="1006" alt="Screen Shot 2025-12-16 at 1 02 19 PM" src="https://github.com/user-attachments/assets/5e0ca088-7553-429e-9b38-1f3a01f5b586" />
+
+Click Continue → Enter helpdesk name + default email → Install & open HeidiSQL → Connect (root/root) → Create osTicket database → Enter DB details in browser → Click Install Now → Verify admin login URL
